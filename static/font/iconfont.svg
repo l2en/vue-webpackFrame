@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="people-copy" unicode="&#58929;" d="M512 384a256 256 0 1 0 0 512 256 256 0 0 0 0-512z m-512-512c31.744 252.544 248.896 448 512 448 263.104 0 480.256-195.456 512-448H0z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="tuceng-copy-copy" unicode="&#58930;" d="M850.297332 503.054638v34.263448A349.573909 349.573909 0 0 1 512 896a349.573909 349.573909 0 0 1-338.297332-358.681914v-34.263448H78.285472v-631.054638h867.429056V503.054638zM256.542143 537.318086A264.565862 264.565862 0 0 0 512 809.257094a264.565862 264.565862 0 0 0 255.457857-271.939008v-34.263448H256.542143z m294.925879-467.977976a39.468022 39.468022 0 1 0-78.936044 0v236.374418a39.468022 39.468022 0 0 0 78.936044 0z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="Verification-copy" unicode="&#58942;" d="M511.9 853.3l-384-170.7v-256c0-234.7 162.1-456.5 384-512 221.9 55.5 384 277.3 384 512v256l-384 170.7z m-85.3-682.6L255.9 341.29999999999995l59.7 59.7 110.9-110.9 281.6 281.6 59.7-59.7-341.2-341.3z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

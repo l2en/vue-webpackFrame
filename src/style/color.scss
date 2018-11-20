@@ -1,0 +1,21 @@
+// 文字
+$baseFontColorGray: #7d7d7d;
+$baseFontColorRed: #FF062D;
+$baseFontColorBlue: #047CE2;
+
+// 按钮
+$baseBtnbgColorBlue: #2B59A3;
+
+
+.red{
+  color: $baseFontColorRed
+}
+.gray{
+  color: $baseFontColorGray
+}
+.blue{
+  color: $baseFontColorBlue
+}
+.btnBlue{
+  color: $baseBtnbgColorBlue
+}

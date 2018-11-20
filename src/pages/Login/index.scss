@@ -1,0 +1,57 @@
+@import 'style/color.scss';
+.login-wrapper{
+  overflow-x: hidden;
+}
+.login-logo{
+  height: 120px;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  &-content{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    &-title{
+      font-size: 25px;
+      font-weight: 600;
+      color: #464646;
+      border: 0;
+      border-left: 1px #e6e6e6 solid;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.login-main{
+  width: 100vw;
+  height: 500px;
+  background-image: url('/static/images/login-banner.png');
+  display: flex;
+  align-items: center;
+  &-loginPanel{
+    width: 440px;
+    min-height: 360px;
+    background-color: #fff;
+    position: absolute;
+    right: 360px;
+    padding: 30px;
+    &-title{
+      height: 40px;
+      width: 100%;
+      border: 0;
+      border-bottom: 1px #eee solid;
+      display: flex;
+      justify-content: space-between;
+      line-height: 40px;
+      &>span{
+        border: 0;
+        border-bottom: 4px $baseFontColorBlue solid;
+      }
+    }
+    &-main{
+      height: 260px;
+    }
+  }
+}

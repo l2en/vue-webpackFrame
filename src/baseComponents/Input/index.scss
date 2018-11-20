@@ -1,0 +1,36 @@
+@import '../../..//static/font/iconfont.css';
+
+.__input{
+  &-wrapper{
+    font-size: 12px;
+    padding: 15px;
+    width: 368px;
+    height: 42px;
+    border: 1px #DCDCDC solid;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 2px;
+    &-icon{
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 23px;
+    }
+    &:focus{
+      outline:1px solid blue;
+    }
+  }
+  &-content{
+    width: 100%;
+    height: 42px;
+    outline: none;
+    color: #464646;
+    border: 0;
+    &::placeholder{
+      color: #bbb;
+    }
+  }
+}
