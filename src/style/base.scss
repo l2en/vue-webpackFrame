@@ -1,7 +1,7 @@
 @import './color.scss';
 
 *{
-  transition: all .2s;
+  // transition: all .2s;
   box-sizing: border-box;
 }
 body{
@@ -12,9 +12,23 @@ body{
 a{
   text-decoration: none;
   color: $baseFontColorGray;
-
+  cursor: pointer!important;
 }
 a:active{
   color: $baseFontColorGray;
 }
-
+.cur{
+  cursor: pointer!important;
+}
+h3{
+  color: #464664!important;
+  font-weight: 400!important;
+  font-size: 18px!important;
+}
+// atUI模态框样式修改
+.at-modal__header{
+  border-bottom: 0!important
+}
+.at-modal__footer{
+  border-top: 0!important
+}

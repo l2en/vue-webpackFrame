@@ -4,11 +4,12 @@ import router from '../router/index'
 // axios 配置
 axios.defaults.timeout = 5000
 axios.defaults.baseURL = ''
-// http request 拦截器
+
+// http request 拦截器，再去请求前添加toekn至header
 axios.interceptors.request.use(
   config => {
     if (localStorage.getItem('token')) {
-      // config.headers.Authorization = `Bearer ${localStorage.getItem('token')}`   // 添加请求头
+      config.headers.Authorization = `token ${localStorage.getItem('token')}`;
     }
     return config
   },

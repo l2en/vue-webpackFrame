@@ -1,0 +1,5 @@
+@for $wd from 0 through 100 {
+  .wd-#{$wd} {
+    width: #{$wd}%!important;
+  }
+}

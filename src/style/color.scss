@@ -16,6 +16,18 @@ $baseBtnbgColorBlue: #2B59A3;
 .blue{
   color: $baseFontColorBlue
 }
-.btnBlue{
-  color: $baseBtnbgColorBlue
+.btnbg-Blue{
+  background-color: $baseBtnbgColorBlue
+}
+.btnbg-default{
+  background-color: #fff;
+  border: 1px #7d7d7d solid;
+}
+.btnbg-primary{
+  background-color: $baseBtnbgColorBlue;
+  border: 1px $baseBtnbgColorBlue solid;
+}
+.btnbg-danger{
+  background-color: #FF062D;
+  border: 1px #7d7d7d solid;
 }

@@ -1,0 +1,36 @@
+@import 'style/color.scss';
+
+.register-main{
+  width: 100%;
+  min-height: 600px;
+  align-items: center;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-loginPanel{
+    width: 1200px;
+    min-height: 400px;
+    background-color: #fff;
+    position: absolute;
+    &-title{
+      height: 40px;
+      width: 100%;
+      border: 0;
+      border-bottom: 1px #eee solid;
+      display: flex;
+      justify-content: space-between;
+      line-height: 40px;
+      &>span{
+        border: 0;
+        border-bottom: 4px $baseFontColorBlue solid;
+      }
+    }
+    &-main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

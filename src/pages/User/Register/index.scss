@@ -1,0 +1,18 @@
+@import 'style/color.scss';
+
+.register-main{
+  width: 100%;
+  min-height: 600px;
+  align-items: center;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-loginPanel{
+    height: 550px;
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+}
